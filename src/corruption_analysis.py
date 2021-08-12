@@ -49,11 +49,12 @@ FINAL_COUNTRIES = ['Singapore', 'Malaysia', 'Vietnam', 'Indonesia', 'Philippines
 FINAL_DICT = {}
     
 for ctr in FINAL_COUNTRIES:
-    FINAL_DICT[ctr] = (happiness_data[ctr])
+    FINAL_DICT[ctr] = happiness_data[ctr][-3:]
     
 pprint (FINAL_DICT)
         
-years = ['2015', '2016', '2017', '2018', '2019', '2020', '2021']
+# years = ['2015', '2016', '2017', '2018', '2019', '2020', '2021']
+years = ['2019', '2020', '2021']
 for ctr, pts in FINAL_DICT.items():
     plt.scatter(years, pts, 5)
     plt.plot(years, pts)
