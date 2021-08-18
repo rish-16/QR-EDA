@@ -8,13 +8,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import csv
 
-df_2015 = pd.DataFrame(pd.read_csv('../datasets/world_happiness_report/2015.csv'))
-df_2016 = pd.DataFrame(pd.read_csv('../datasets/world_happiness_report/2016.csv'))
-df_2017 = pd.DataFrame(pd.read_csv('../datasets/world_happiness_report/2017.csv'))
-df_2018 = pd.DataFrame(pd.read_csv('../datasets/world_happiness_report/2018.csv'))
-df_2019 = pd.DataFrame(pd.read_csv('../datasets/world_happiness_report/2019.csv'))
-df_2020 = pd.DataFrame(pd.read_csv('../datasets/world_happiness_report/2020.csv'))
-df_2021 = pd.DataFrame(pd.read_csv('../datasets/world_happiness_report/2021.csv'))
+df_2015 = pd.DataFrame(pd.read_csv('../../datasets/world_happiness_report/2015.csv'))
+df_2016 = pd.DataFrame(pd.read_csv('../../datasets/world_happiness_report/2016.csv'))
+df_2017 = pd.DataFrame(pd.read_csv('../../datasets/world_happiness_report/2017.csv'))
+df_2018 = pd.DataFrame(pd.read_csv('../../datasets/world_happiness_report/2018.csv'))
+df_2019 = pd.DataFrame(pd.read_csv('../../datasets/world_happiness_report/2019.csv'))
+df_2020 = pd.DataFrame(pd.read_csv('../../datasets/world_happiness_report/2020.csv'))
+df_2021 = pd.DataFrame(pd.read_csv('../../datasets/world_happiness_report/2021.csv'))
 
 dfs = [
     df_2015,
